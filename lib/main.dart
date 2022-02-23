@@ -48,27 +48,6 @@ class _MyAppState extends State<MyApp> {
           CalendersScreen.routeName: (context) => const CalendersScreen(),
         },
         debugShowCheckedModeBanner: false,
-        // theme: ThemeData.light().copyWith(
-        //   scrollbarTheme:  ScrollbarThemeData(
-        //     interactive: true,
-        //     radius: const Radius.circular(10.0),
-        //     thumbColor: MaterialStateProperty.all(Colors.deepOrange.withOpacity(0.6)),
-        //     thickness: MaterialStateProperty.all(20.0),
-        //     minThumbLength: 100,
-        //   ),
-        //   primaryColor: Colors.deepOrange,
-        //   colorScheme: const ColorScheme.dark(
-        //     surface: Colors.deepOrange,
-        //     // color of app bar
-        //     onSurface: Colors.white,
-        //     // everything on appbar
-        //     secondary: Colors.deepPurple,
-        //     // floating action button
-        //     onSecondary: Colors.white,
-        //     // everything on FAB
-        //     primary: Colors.deepOrange, // background of the buttons
-        //   ).copyWith(secondary: Colors.deepPurple),
-        // ),
         home: const BottomNavigationBarScreen(),
       ),
     );
